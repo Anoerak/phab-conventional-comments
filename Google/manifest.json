@@ -1,14 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Phabricator Conventional Comments",
+  "name": "phabricator-comments",
   "version": "1.0",
   "description": "Adds a control in Phabricator comment toolbar to insert pre-defined labels in the comment textarea.",
   "permissions": [
     "activeTab",
     "scripting"
-  ],
-  "host_permissions": [
-    "<all_urls>"
   ],
   "content_scripts": [
     {
