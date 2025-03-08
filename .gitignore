@@ -1,11 +1,15 @@
 # Files
-./Google.crx
-./Google.pem
-./icon-128-modern.png
-./manifest.json
-./Marquee.jpg
-./screenshot-1.jpg
-./screenshot-2.jpg
-./screenshot-3.jpg
-./screenshot-4.jpg
-./tile.jpeg
+Google.crx
+Google.pem
+icon-128-modern.png
+manifest.json
+Marquee.jpg
+phabricator-comments.zip
+screenshot-1.jpg
+screenshot-2.jpg
+screenshot-3.jpg
+screenshot-4.jpg
+tile.jpeg
+
+# Folders
+Firefox/web-ext-artifacts/
