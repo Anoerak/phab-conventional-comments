@@ -10,6 +10,8 @@ const CONVENTIONAL_COMMENTS = {
   note: { icon: "sticky-note", color: "#FFE699"},
 };
 
+console.log("Phabricator Conventional Comments loaded!");
+
 // Are we on a Phabricator page?
 try {
   document.querySelector(".phabricator-wordmark");
@@ -62,8 +64,6 @@ try {
         const textAreaEl = commentContainerEl.querySelector("textarea.remarkup-assist-textarea");
         if (!(textAreaEl instanceof HTMLTextAreaElement)) return;
 
-        // const commentLabel = `${labelData.stylePrefix ? `**${labelData.stylePrefix}** >` : ""}{nav, ${labelData.icon ? ` icon=${labelData.icon},` : ""} name=${select.value}:, type} `;
-        
         const commentLabel = `${labelData.stylePrefix
           ? `{nav, ${labelData.icon ? ` icon=${labelData.icon},` : ""} name=${select.value}:, type > ${labelData.stylePrefix}:} `
           : `{nav, ${labelData.icon ? ` icon=${labelData.icon},` : ""} name=${select.value}:, type} `
@@ -90,7 +90,7 @@ try {
     label.style.display = "inline-flex";
     label.style.marginBlockStart = "6px";
     label.style.alignItems = "center";
-    label.style.color = 
+    label.style.color = "#52596c";
     label.style.marginInlineStart = "4px";
     return label;
   }
