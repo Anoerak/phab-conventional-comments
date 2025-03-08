@@ -1,9 +1,9 @@
 
-# Phabricator Conventional Comments Extension
+# Phabricator Comments Extension
 
 ## Overview
 
-The Phabricator Conventional Comments Extension enhances the commenting experience on Phabricator by adding a control in the comment toolbar to insert pre-defined labels. These labels help categorize comments and make them more visually distinct with pastel background colors. The extension is available for Firefox, Chrome, and Safari browsers.
+The Phabricator Comments Extension enhances the commenting experience on Phabricator by adding a control in the comment toolbar to insert pre-defined labels. These labels help categorize comments and make them more visually distinct with pastel background colors. The extension is available for Firefox, Chrome, and Safari browsers.
 
 ## Features
 
@@ -18,8 +18,8 @@ The Phabricator Conventional Comments Extension enhances the commenting experien
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/phabricator-conventional-comments.git
-   cd phabricator-conventional-comments
+   git clone https://github.com/yourusername/phabricator-comments.git
+   cd phabricator-comments
    ```
 
 2. **Load the Extension**:
@@ -32,8 +32,8 @@ The Phabricator Conventional Comments Extension enhances the commenting experien
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/phabricator-conventional-comments.git
-   cd phabricator-conventional-comments
+   git clone https://github.com/yourusername/phabricator-comments.git
+   cd phabricator-comments
    ```
 
 2. **Load the Extension**:
@@ -46,8 +46,8 @@ The Phabricator Conventional Comments Extension enhances the commenting experien
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/phabricator-conventional-comments.git
-   cd phabricator-conventional-comments
+   git clone https://github.com/yourusername/phabricator-comments.git
+   cd phabricator-comments
    ```
 
 2. **Open the Project in Xcode**:
@@ -60,7 +60,7 @@ The Phabricator Conventional Comments Extension enhances the commenting experien
 
 4. **Enable the Extension**:
    - In Safari, go to `Safari > Preferences > Extensions`.
-   - Enable the "Phabricator Conventional Comments" extension.
+   - Enable the "Phabricator Comments" extension.
 
 ## Usage
 
